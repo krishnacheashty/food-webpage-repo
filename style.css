@@ -22,7 +22,6 @@ body{
     background-image: linear-gradient(to left,tomato, orange,tomato);
   
 }
-<<<<<<< HEAD
 .food-master{ 
     font-size: 30px;
     font-weight: 700;
@@ -38,12 +37,6 @@ body{
     list-style: none;
     display: inline-block;
     margin-right: 15px;
-=======
-.manu1 ul li{
-    list-style: none;
-    display: inline-block;
-    margin-right: 35px;
->>>>>>> 4d8bad46718ad4744cba2610a90eaebee3801ff6
     padding-right: 15px;
    
 }
