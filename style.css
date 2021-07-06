@@ -4,7 +4,9 @@ body{
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     text-transform: capitalize;
-} 
+}
+/* } ......................navebar start................. */  
+
 .main{
     background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url("pic/cover/cover.jpg");
     background-position: center;
@@ -23,6 +25,7 @@ body{
     background-image: linear-gradient(to left,tomato, orange,tomato);
   
 }
+
 .food-master{ 
     font-size: 30px;
     font-weight: 700;
@@ -118,6 +121,8 @@ p{
 
 
 /* .............3rd section start........ */
+
+
 .require1{
     width: 100%;
     height: 100vh;
@@ -149,13 +154,14 @@ img{
     height: 450px;
 }
 
-/* ...............3rd section............... */
+/* ...............4rd section............... */
 
 
 .require2{
     width: 100%;
     height: 100vh;
-    background-image:linear-gradient(rgba(17, 2, 2, 0.52),rgba(17, 2, 2, 0.52)) 
+    background-image:linear-gradient(rgba(17, 2, 2, 0.52), 
+    rgba(17, 2, 2, 0.52)) 
     ,url("pic/food/Project\ Cover3.png");
     display: flex;
     background-position: center;
@@ -177,6 +183,8 @@ img{
 #needpadding{
     padding-bottom: 60px;
 }
+
+/* .....................section 5 start....................... */
 
 
 .recipey-text{
@@ -261,10 +269,19 @@ img{
 }
 
 
+#need1{
+    font-size: 20px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    padding-bottom: 10px;
+   
+}
 
 
 
-/* .......................................... */
+
+
+/* ................... section 6....................... */
 
 
 .booking{
@@ -284,7 +301,7 @@ background-repeat: no-repeat;
 background-size: cover;
 border-radius: 25px;
 margin: 100px 60px;
-box-shadow: 12px 12px 12px 0 gray;
+box-shadow: 8px 8px 8px 0 rgb(202, 187, 187);
 
 
 }
@@ -312,7 +329,7 @@ box-shadow: 12px 12px 12px 0 gray;
      font-size: 35px;
  }
 
- /* .............................//////////////////////////////// */
+ /* ....................... sectio 7......//////////////////////////////// */
 
  .cook5{
      background-image: url("pic/male/pic1.jpg");
@@ -329,24 +346,62 @@ box-shadow: 12px 12px 12px 0 gray;
  .cook6{
     background-image: url("pic/male/pic2.jpg");
     width: 50%;
-    height: 25vh;
+    height: 15vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 50px;
     margin: 100px 60px;
     border: 1px solid snow;
  }
  .cook5{
     background-image: url("pic/male/pic1.jpg");
     width: 50%;
-    height: 25vh;
+    height: 15vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 25px;
+    border-radius: 50px;
     margin: 100px 60px;
     border: 1px solid snow;
 }
 
- 
+
+
+/* ...............................section 8............ */
+
+
+.beforefooter{
+    display: flex;
+    width: 100%;
+    height: 20vh;
+    box-shadow: 3px 3px 3px 0 gray;
+
+} 
+.tube{
+    flex-basis: 30%;
+    border: hidden;
+    text-align: center;
+    
+}
+
+/* ...................fotter....section 9......... */
+
+.fotter{
+    width: 100%;
+    height: 20vh;
+    text-align: center;
+    background-color: greenyellow;
+}
+.lesspadding{
+    padding: 0;
+    color: black;
+    margin: 15px 0 0 0;
+}
+
+
+
+
+/* ..............end the section........... */
+
+
